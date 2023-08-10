@@ -8,13 +8,13 @@ function Teamcard(
       <li className="list-group-item border-0 m-0 p-0">
         <div className="row">
           <div
-            className="col-1 border-bottom border-top"
+            className="col-1 col-sm-3 border-bottom border-top"
             style={{ fontSize: 45 }}
           >
             {props.rank}
           </div>
           <div
-            class="card col-11 border-0 border-bottom border-top"
+            class="card col-11 col-sm-9 border-0 border-bottom border-top"
             style={{ borderRadius: 0 }}
           >
             <div class="card-body">
